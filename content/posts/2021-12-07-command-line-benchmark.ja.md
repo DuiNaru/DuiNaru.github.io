@@ -48,7 +48,7 @@ sys     0m0.000s
 >
 > *This project provides the bench command-line tool, which is a more powerful alternative to the time command. Use bench to benchmark a command using Haskell's criterion library.*
 
-コマンドを数回実行できて、結果も詳しいです。
+コマンドを数回実行できて、結果も詳しくなります。
 
 ```
 $ bench 'sleep 1'  # Don't forget to quote the command line
