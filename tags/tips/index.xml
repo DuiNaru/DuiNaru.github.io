@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tips on DuiNaru | 개발과 경험을 담는 블로그</title><link>https://duinaru.github.io/tags/tips/</link><description>Recent content in tips on DuiNaru | 개발과 경험을 담는 블로그</description><generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Tue, 07 Dec 2021 12:52:54 +0000</lastBuildDate><atom:link href="https://duinaru.github.io/tags/tips/index.xml" rel="self" type="application/rss+xml"/><item><title>명령어 실행 시간 측정해보기</title><link>https://duinaru.github.io/posts/2021-12-07-command-line-benchmark/</link><pubDate>Tue, 07 Dec 2021 12:52:54 +0000</pubDate><guid>https://duinaru.github.io/posts/2021-12-07-command-line-benchmark/</guid><description>time 리눅스의 기본 명령어입니다.
+time
+time a simple command or give resource usage
+명령어를 실행시키고, 총 소요시간 / 유저영역 / 커널영역 의 실행 시간을 알려줍니다.
+$ time sleep 1 real 0m1.002s user 0m0.001s sys 0m0.000s $ time echo &amp;#39;Hello World!&amp;#39; Hello World! real 0m0.000s user 0m0.000s sys 0m0.000s 간단히 프로그램의 실행 시간을 알아보고자 할 때, 유용합니다.
+단점이라면, 단순하다는 것!
+bench 조금 더 자세히 알아봅시다.
+Gabriel439/bench
+This project provides the bench command-line tool, which is a more powerful alternative to the time command.</description></item></channel></rss>

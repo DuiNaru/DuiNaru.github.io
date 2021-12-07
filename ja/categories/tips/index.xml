@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tips on DuiNaru | 開発と経験を載せるブログ</title><link>https://duinaru.github.io/ja/categories/tips/</link><description>Recent content in tips on DuiNaru | 開発と経験を載せるブログ</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 07 Dec 2021 12:53:19 +0000</lastBuildDate><atom:link href="https://duinaru.github.io/ja/categories/tips/index.xml" rel="self" type="application/rss+xml"/><item><title>コマンド実行時間を測定する方法</title><link>https://duinaru.github.io/ja/posts/2021-12-07-command-line-benchmark/</link><pubDate>Tue, 07 Dec 2021 12:53:19 +0000</pubDate><guid>https://duinaru.github.io/ja/posts/2021-12-07-command-line-benchmark/</guid><description>time Linuxのコマンドに一つです。
+time
+time a simple command or give resource usage
+コマンドを実行させ、userとsysの領域での所要時間、合計所要時間を測定できます。
+$ time sleep 1 real 0m1.002s user 0m0.001s sys 0m0.000s $ time echo &amp;#39;Hello World!&amp;#39; Hello World! real 0m0.000s user 0m0.000s sys 0m0.000s 簡単にプログラムの実行時間を調べる際に、便利です。
+単純ということが限界ではありますが。
+bench もうちょっと調べてみましょう。
+Gabriel439/bench
+This project provides the bench command-line tool, which is a more powerful alternative to the time command. Use bench to benchmark a command using Haskell&amp;rsquo;s criterion library.</description></item></channel></rss>
