@@ -1,13 +1,12 @@
 +++
 categories = ["tips"]
-tags = ["tips", "utils", "command"]
+tags = ["tips", "utils", "command", "linux"]
 title = "명령어 실행 시간 측정해보기"
 permalink = "2021-12-07-command-line-benchmark"
-date = 2021-12-07T09:22:44.820Z
+date = 2021-12-07T12:25:45.691Z
+description = "명령어의 실행 시간을 알아보는 방법을 몇 가지 적어보려고 합니다"
 i18n = "ko"
 +++
-명령어의 실행 시간을 알아보는 방법을 몇 가지 적어보려고 합니다.
-
 # time
 
 리눅스의 기본 명령어입니다.
