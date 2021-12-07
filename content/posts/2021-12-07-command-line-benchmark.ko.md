@@ -21,7 +21,7 @@ alt = "bash image"
 
 명령어를 실행시키고, 총 소요시간 / 유저영역 / 커널영역 의 실행 시간을 알려줍니다.
 
-```
+```shell
 $ time sleep 1
 
 real    0m1.002s
@@ -50,7 +50,7 @@ sys     0m0.000s
 
 명령어를 반복 실행시킬 수 도 있고, 결과를 자세히 알아볼 수 도 있습니다.
 
-```
+```shell
 $ bench 'sleep 1'  # Don't forget to quote the command line
 benchmarking sleep 1
 time                 1.003 s    (1.002 s .. 1.003 s)
