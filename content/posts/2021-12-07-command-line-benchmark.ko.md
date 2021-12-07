@@ -3,7 +3,7 @@ categories = ["tips"]
 tags = ["tips", "utils", "command", "linux"]
 title = "명령어 실행 시간 측정해보기"
 permalink = "2021-12-07-command-line-benchmark"
-date = 2021-12-07T12:25:45.691Z
+date = 2021-12-07T12:52:54.511Z
 description = "명령어의 실행 시간을 알아보는 방법을 몇 가지 적어보려고 합니다"
 i18n = "ko"
 
