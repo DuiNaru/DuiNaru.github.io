@@ -21,7 +21,7 @@ Linuxのコマンドに一つです。
 
 コマンドを実行させ、userとsysの領域での所要時間、合計所要時間を測定できます。
 
-```
+```shell
 $ time sleep 1
 
 real    0m1.002s
@@ -50,7 +50,7 @@ sys     0m0.000s
 
 コマンドを数回実行できて、結果も詳しくなります。
 
-```
+```shell
 $ bench 'sleep 1'  # Don't forget to quote the command line
 benchmarking sleep 1
 time                 1.003 s    (1.002 s .. 1.003 s)
