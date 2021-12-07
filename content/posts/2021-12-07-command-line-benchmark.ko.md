@@ -16,7 +16,7 @@ i18n = "ko"
 >
 > time a simple command or give resource usage
 
-해당 명령어를 실행시키고, 총 소요시간 / 유저영역 / 커널영역 의 실행 시간을 알려줍니다.
+명령어를 실행시키고, 총 소요시간 / 유저영역 / 커널영역 의 실행 시간을 알려줍니다.
 
 ```
 $ time sleep 1
