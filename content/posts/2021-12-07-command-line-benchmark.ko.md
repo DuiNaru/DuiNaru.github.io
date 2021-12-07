@@ -8,8 +8,8 @@ description = "명령어의 실행 시간을 알아보는 방법을 몇 가지 �
 i18n = "ko"
 
 [[images]]
-src = "https://dora-guide.com/wp-content/uploads/2019/09/%EB%A6%AC%EB%88%85%EC%8A%A4-find-%EB%AA%85%EB%A0%B9%EC%96%B4-2.jpg"
-alt = "linux like images"
+src = "https://www.dataquest.io/wp-content/uploads/2019/07/command-line-courses-dataquest-1000x520-1.gif"
+alt = "bash image"
 +++
 # time
 
